@@ -232,7 +232,9 @@ function createRenderer(structure) {
     ArrowLeft: [moveDist, 0, 0],
     ArrowRight: [-moveDist, 0, 0],
     Shift: [0, moveDist, 0],
-    ' ': [0, -moveDist, 0]
+    ' ': [0, -moveDist, 0],
+    q: [0, moveDist, 0],
+    e: [0, -moveDist, 0]
   };
   let pressedKeys = new Set();
   
